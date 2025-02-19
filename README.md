@@ -24,30 +24,30 @@ SSLDetective automates the process of checking SSL/TLS settings on a given targe
 
 1.  Clone the repository:
 
-    ```
-    git clone <repository_url>
+    
+    git clone https://github.com/mrexperimentalrandom/SSL-Detective
     cd SSLDetective
-    ```
+    
 
 2.  Make the script executable:
 
-    ```
+    
     chmod +x ssldetective.sh
-    ```
+    
 
 ## Usage
 
 1.  Run the script with sudo or as root:
 
-    ```
+    
     sudo ./ssldetective.sh
-    ```
+    
 
 2.  The script will prompt you to enter the target (e.g., example.com:443).
 
-    ```
+    
     Enter the target (e.g., example.com:443):
-    ```
+    
 
 3.  The script will install necessary tools (if not already installed) and run the SSL/TLS tests.
 
